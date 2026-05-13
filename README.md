@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# AeroBrief Mobile ✈️📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido com React Native e Expo, criado com o objetivo de auxiliar pilotos e entusiastas da aviação através da visualização de aeronaves em tempo real, informações operacionais e integração com APIs externas.
 
-## Get started
+O projeto foi uma extensão do AeroBrief Web e representou uma etapa importante na minha evolução técnica, principalmente no desenvolvimento mobile, integração com APIs e resolução de problemas relacionados ao backend e consumo de dados em tempo real.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias utilizadas
 
-2. Start the app
+- React Native
+- Expo
+- JavaScript
+- Google Maps API
+- FlightAware API
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🎯 Objetivo do projeto
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O objetivo principal da aplicação foi criar uma experiência mobile voltada para acompanhamento de aeronaves e informações relacionadas à aviação, oferecendo uma interface moderna, intuitiva e responsiva para dispositivos móveis.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+A aplicação foi pensada para:
+- Monitoramento de aeronaves em tempo real
+- Visualização em mapa interativo
+- Experiência mobile fluida
+- Organização visual inspirada em sistemas aeronáuticos
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📱 Funcionalidades
 
-```bash
-npm run reset-project
-```
+- Interface mobile moderna
+- Integração com mapas
+- Visualização de aeronaves em tempo real
+- Navegação intuitiva
+- Estrutura preparada para expansão futura
+- Consumo de APIs externas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🗺️ Integração com APIs
 
-To learn more about developing your project with Expo, look at the following resources:
+Durante o desenvolvimento, foram utilizadas APIs reais para tornar a experiência mais próxima de um cenário real de aplicação.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### FlightAware API
+Utilizada para monitoramento de aeronaves em tempo real.
 
-## Join the community
+Durante o projeto, enfrentei diversos desafios relacionados à estabilidade e disponibilidade da API. Atualmente a integração encontra-se desativada, fazendo com que algumas aeronaves sejam exibidas incorretamente no mapa (“aviões fantasmas”).
 
-Join our community of developers creating universal apps.
+Mesmo com essas limitações, o projeto foi extremamente importante para meu aprendizado em:
+- Consumo de APIs
+- Tratamento de erros
+- Fluxo de dados em tempo real
+- Integração entre frontend e backend
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Google Maps API
+Utilizada para renderização dos mapas e visualização das aeronaves.
+
+A integração foi realizada com sucesso utilizando serviços do Google Cloud Platform.
+
+---
+
+## 🧠 Principais aprendizados
+
+Esse projeto representou um grande avanço na minha evolução como desenvolvedor.
+
+Durante o desenvolvimento trabalhei conceitos como:
+- React Native
+- Estruturação mobile
+- Navegação entre telas
+- Consumo de APIs externas
+- Tratamento de erros
+- Backend e integração de dados
+- Organização de componentes
+- Debug e resolução de bugs
+- Experiência do usuário (UI/UX)
+
+---
+
+## 🔥 Desafios enfrentados
+
+Um dos maiores desafios do projeto foi trabalhar com APIs reais e lidar com:
+- Instabilidade de serviços externos
+- Limites de requisição
+- Dados inconsistentes
+- Integração backend/frontend
+- Ajustes de renderização em mapas
+
+Esses desafios contribuíram muito para meu crescimento técnico e entendimento sobre aplicações reais.
+
+---
+
+## 📌 Status do projeto
+
+🚧 Projeto em evolução.
+
+Atualmente algumas funcionalidades dependem da reativação ou substituição da API FlightAware para funcionamento completo do rastreamento em tempo real.
+
+---
+
+## 🌐 Deploy / Preview
+
+
+application-5c095ff4-177e-4670-8a05-d741264f88a2.apk
